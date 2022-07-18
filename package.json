@@ -1,6 +1,6 @@
 {
   "name": "@aliendex/v2-periphery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🎚 Peripheral smart contracts for interacting with Uniswap V2",
   "engines": {
     "node": ">=10"
@@ -8,7 +8,7 @@
   "homepage": "https://crystaleum.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/crystaleum/v2-periphery"
+    "url": "git+https://github.com/crystaleum/v2-periphery.git"
   },
   "files": [
     "build",
@@ -44,5 +44,10 @@
     "test": "mocha",
     "prepublishOnly": "yarn compile"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/crystaleum/v2-periphery/issues"
+  },
+  "keywords": [],
+  "author": ""
 }
